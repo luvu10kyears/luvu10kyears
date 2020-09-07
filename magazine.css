@@ -1,3 +1,34 @@
+btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+       background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -23,13 +54,7 @@
  
 }
 
-body{
-       background: radial-gradient(
-      circle closest-side,
-      #d5c83d 80%,
-      #e9e5bf,#8482e3
-    );
-}
+
 
 
 
@@ -132,18 +157,7 @@ body{
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background: radial-gradient(
-  circle closest-side,
-  #d5c83d 80%,
-  #e9e5bf,#8482e3
-);
-}
-.album{
-       background: radial-gradient(
-      circle closest-side,
-      #d5c83d 80%,
-      #e9e5bf,#8482e3
-    );
+  background-color: #fff;
 }
 @media (min-width: 768px) {
   .jumbotron {
