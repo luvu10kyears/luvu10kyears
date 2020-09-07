@@ -135,14 +135,15 @@ body {
 /*
  * Affix and center
  */
- @media screen and  (max-width: 992px) {
-
-
-
-
-
-  
- }
+@media (min-width: 768px) {
+    .img{
+      width: X%
+     }
+    .innercover{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
