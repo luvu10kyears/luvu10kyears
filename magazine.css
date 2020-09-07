@@ -104,6 +104,11 @@ body {
  .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
   }
 }
 
@@ -157,13 +162,23 @@ body {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
 }
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+           background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
   }
+  
 }
 
 .jumbotron p:last-child {
