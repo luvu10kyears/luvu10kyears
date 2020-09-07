@@ -30,6 +30,15 @@ body {
       #e9e5bf,#8482e3
     );
 }
+main{
+  
+   background: radial-gradient(
+  circle closest-side,
+  #d5c83d 80%,
+  #e9e5bf,#8482e3
+);
+
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -159,7 +168,7 @@ body {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+  
 }
 @media (min-width: 768px) {
   .jumbotron {
