@@ -9,6 +9,13 @@
   margin-bottom: 0;
   background-color: #fff;
 }
+.album{
+       background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
+}
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
