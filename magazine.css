@@ -23,7 +23,13 @@
  
 }
 
-
+body{
+       background: radial-gradient(
+      circle closest-side,
+      #d5c83d 80%,
+      #e9e5bf,#8482e3
+    );
+}
 
 
 
